@@ -1,4 +1,4 @@
-import cv
+import cv2 as cv
 import numpy as np
 
 def remove_salt_and_pepper_noise(image: np.ndarray) -> np.ndarray:
